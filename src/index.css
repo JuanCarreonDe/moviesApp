@@ -28,8 +28,15 @@ a:hover {
 
 body {
   margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
+#root{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
 button {
   border-radius: 8px;
@@ -62,3 +69,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
